@@ -21,3 +21,5 @@ Added OpenClass Rooms Certificates.
 Link to my Codecademy profil, courses etc... https://www.codecademy.com/pyPlayer76851 
 
 Created a gist file for Simplon. 
+
+Je ne peux pas télécharger le Certificats OCR (.zip) sur Simplon? Ils sont tous sur Github. https://github.com/leunablue/simplon/tree/master/OCR%20Certificates 
