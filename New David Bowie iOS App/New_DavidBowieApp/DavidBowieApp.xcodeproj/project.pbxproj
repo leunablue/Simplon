@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D6903341C7C92F900F1D8CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6903331C7C92F900F1D8CB /* main.m */; };
+		5D6903371C7C92F900F1D8CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6903361C7C92F900F1D8CB /* AppDelegate.m */; };
+		5D69033A1C7C92F900F1D8CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6903391C7C92F900F1D8CB /* ViewController.m */; };
+		5D69033D1C7C92F900F1D8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D69033B1C7C92F900F1D8CB /* Main.storyboard */; };
+		5D69033F1C7C92F900F1D8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D69033E1C7C92F900F1D8CB /* Assets.xcassets */; };
+		5D6903421C7C92F900F1D8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6903401C7C92F900F1D8CB /* LaunchScreen.storyboard */; };
+		5D69034D1C7C92F900F1D8CB /* DavidBowieAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69034C1C7C92F900F1D8CB /* DavidBowieAppTests.m */; };
+		5D6903581C7C92F900F1D8CB /* DavidBowieAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6903571C7C92F900F1D8CB /* DavidBowieAppUITests.m */; };
+		5D6903661C7C93BC00F1D8CB /* Bowie-davidbowie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6903651C7C93BC00F1D8CB /* Bowie-davidbowie.jpg */; };
+		5D6903681C7CB9B800F1D8CB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6903671C7CB9B800F1D8CB /* CoreVideo.framework */; };
+		5D69036A1C7CB9E300F1D8CB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6903691C7CB9E300F1D8CB /* MediaPlayer.framework */; };
+		5D69036C1C7CF78700F1D8CB /* spaceOddity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D69036B1C7CF78700F1D8CB /* spaceOddity.jpg */; };
+		5D69036E1C7CFC3600F1D8CB /* soldtheworld.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D69036D1C7CFC3600F1D8CB /* soldtheworld.png */; };
+		5D6903701C7CFE7E00F1D8CB /* Hunky_Dory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D69036F1C7CFE7E00F1D8CB /* Hunky_Dory.jpg */; };
+		5D6903881C81C50C00F1D8CB /* AladdinSane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6903871C81C50C00F1D8CB /* AladdinSane.jpg */; };
+		5D69038A1C81C52000F1D8CB /* Diamond_dogs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D6903891C81C52000F1D8CB /* Diamond_dogs.jpg */; };
+		5D69038C1C81C52A00F1D8CB /* PinUps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D69038B1C81C52A00F1D8CB /* PinUps.jpg */; };
+		5D69038E1C81C53400F1D8CB /* ZiggyStardust.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D69038D1C81C53400F1D8CB /* ZiggyStardust.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D6903491C7C92F900F1D8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6903271C7C92F900F1D8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D69032E1C7C92F900F1D8CB;
+			remoteInfo = DavidBowieApp;
+		};
+		5D6903541C7C92F900F1D8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6903271C7C92F900F1D8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D69032E1C7C92F900F1D8CB;
+			remoteInfo = DavidBowieApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D69032F1C7C92F900F1D8CB /* DavidBowieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DavidBowieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6903331C7C92F900F1D8CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D6903351C7C92F900F1D8CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D6903361C7C92F900F1D8CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D6903381C7C92F900F1D8CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D6903391C7C92F900F1D8CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D69033C1C7C92F900F1D8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D69033E1C7C92F900F1D8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D6903411C7C92F900F1D8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D6903431C7C92F900F1D8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6903481C7C92F900F1D8CB /* DavidBowieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DavidBowieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D69034C1C7C92F900F1D8CB /* DavidBowieAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavidBowieAppTests.m; sourceTree = "<group>"; };
+		5D69034E1C7C92F900F1D8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6903531C7C92F900F1D8CB /* DavidBowieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DavidBowieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6903571C7C92F900F1D8CB /* DavidBowieAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavidBowieAppUITests.m; sourceTree = "<group>"; };
+		5D6903591C7C92F900F1D8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6903651C7C93BC00F1D8CB /* Bowie-davidbowie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bowie-davidbowie.jpg"; sourceTree = "<group>"; };
+		5D6903671C7CB9B800F1D8CB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5D6903691C7CB9E300F1D8CB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5D69036B1C7CF78700F1D8CB /* spaceOddity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spaceOddity.jpg; path = ../../images/spaceOddity.jpg; sourceTree = "<group>"; };
+		5D69036D1C7CFC3600F1D8CB /* soldtheworld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soldtheworld.png; path = ../../images/soldtheworld.png; sourceTree = "<group>"; };
+		5D69036F1C7CFE7E00F1D8CB /* Hunky_Dory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hunky_Dory.jpg; path = ../../images/Hunky_Dory.jpg; sourceTree = "<group>"; };
+		5D6903871C81C50C00F1D8CB /* AladdinSane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AladdinSane.jpg; path = ../../images/AladdinSane.jpg; sourceTree = "<group>"; };
+		5D6903891C81C52000F1D8CB /* Diamond_dogs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Diamond_dogs.jpg; path = ../../images/Diamond_dogs.jpg; sourceTree = "<group>"; };
+		5D69038B1C81C52A00F1D8CB /* PinUps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PinUps.jpg; path = ../../images/PinUps.jpg; sourceTree = "<group>"; };
+		5D69038D1C81C53400F1D8CB /* ZiggyStardust.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ZiggyStardust.jpg; path = ../../images/ZiggyStardust.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D69032C1C7C92F900F1D8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D69036A1C7CB9E300F1D8CB /* MediaPlayer.framework in Frameworks */,
+				5D6903681C7CB9B800F1D8CB /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6903451C7C92F900F1D8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6903501C7C92F900F1D8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D6903261C7C92F900F1D8CB = {
+			isa = PBXGroup;
+			children = (
+				5D6903691C7CB9E300F1D8CB /* MediaPlayer.framework */,
+				5D6903671C7CB9B800F1D8CB /* CoreVideo.framework */,
+				5D6903311C7C92F900F1D8CB /* DavidBowieApp */,
+				5D69034B1C7C92F900F1D8CB /* DavidBowieAppTests */,
+				5D6903561C7C92F900F1D8CB /* DavidBowieAppUITests */,
+				5D6903301C7C92F900F1D8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D6903301C7C92F900F1D8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D69032F1C7C92F900F1D8CB /* DavidBowieApp.app */,
+				5D6903481C7C92F900F1D8CB /* DavidBowieAppTests.xctest */,
+				5D6903531C7C92F900F1D8CB /* DavidBowieAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D6903311C7C92F900F1D8CB /* DavidBowieApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D6903351C7C92F900F1D8CB /* AppDelegate.h */,
+				5D6903361C7C92F900F1D8CB /* AppDelegate.m */,
+				5D6903381C7C92F900F1D8CB /* ViewController.h */,
+				5D6903391C7C92F900F1D8CB /* ViewController.m */,
+				5D69033B1C7C92F900F1D8CB /* Main.storyboard */,
+				5D69033E1C7C92F900F1D8CB /* Assets.xcassets */,
+				5D6903401C7C92F900F1D8CB /* LaunchScreen.storyboard */,
+				5D6903431C7C92F900F1D8CB /* Info.plist */,
+				5D6903321C7C92F900F1D8CB /* Supporting Files */,
+			);
+			path = DavidBowieApp;
+			sourceTree = "<group>";
+		};
+		5D6903321C7C92F900F1D8CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D69038D1C81C53400F1D8CB /* ZiggyStardust.jpg */,
+				5D69038B1C81C52A00F1D8CB /* PinUps.jpg */,
+				5D6903891C81C52000F1D8CB /* Diamond_dogs.jpg */,
+				5D6903871C81C50C00F1D8CB /* AladdinSane.jpg */,
+				5D69036F1C7CFE7E00F1D8CB /* Hunky_Dory.jpg */,
+				5D69036D1C7CFC3600F1D8CB /* soldtheworld.png */,
+				5D69036B1C7CF78700F1D8CB /* spaceOddity.jpg */,
+				5D6903651C7C93BC00F1D8CB /* Bowie-davidbowie.jpg */,
+				5D6903331C7C92F900F1D8CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D69034B1C7C92F900F1D8CB /* DavidBowieAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D69034C1C7C92F900F1D8CB /* DavidBowieAppTests.m */,
+				5D69034E1C7C92F900F1D8CB /* Info.plist */,
+			);
+			path = DavidBowieAppTests;
+			sourceTree = "<group>";
+		};
+		5D6903561C7C92F900F1D8CB /* DavidBowieAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D6903571C7C92F900F1D8CB /* DavidBowieAppUITests.m */,
+				5D6903591C7C92F900F1D8CB /* Info.plist */,
+			);
+			path = DavidBowieAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D69032E1C7C92F900F1D8CB /* DavidBowieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D69035C1C7C92F900F1D8CB /* Build configuration list for PBXNativeTarget "DavidBowieApp" */;
+			buildPhases = (
+				5D69032B1C7C92F900F1D8CB /* Sources */,
+				5D69032C1C7C92F900F1D8CB /* Frameworks */,
+				5D69032D1C7C92F900F1D8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DavidBowieApp;
+			productName = DavidBowieApp;
+			productReference = 5D69032F1C7C92F900F1D8CB /* DavidBowieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D6903471C7C92F900F1D8CB /* DavidBowieAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D69035F1C7C92F900F1D8CB /* Build configuration list for PBXNativeTarget "DavidBowieAppTests" */;
+			buildPhases = (
+				5D6903441C7C92F900F1D8CB /* Sources */,
+				5D6903451C7C92F900F1D8CB /* Frameworks */,
+				5D6903461C7C92F900F1D8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D69034A1C7C92F900F1D8CB /* PBXTargetDependency */,
+			);
+			name = DavidBowieAppTests;
+			productName = DavidBowieAppTests;
+			productReference = 5D6903481C7C92F900F1D8CB /* DavidBowieAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D6903521C7C92F900F1D8CB /* DavidBowieAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6903621C7C92F900F1D8CB /* Build configuration list for PBXNativeTarget "DavidBowieAppUITests" */;
+			buildPhases = (
+				5D69034F1C7C92F900F1D8CB /* Sources */,
+				5D6903501C7C92F900F1D8CB /* Frameworks */,
+				5D6903511C7C92F900F1D8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6903551C7C92F900F1D8CB /* PBXTargetDependency */,
+			);
+			name = DavidBowieAppUITests;
+			productName = DavidBowieAppUITests;
+			productReference = 5D6903531C7C92F900F1D8CB /* DavidBowieAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D6903271C7C92F900F1D8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Leuna O'Doherty";
+				TargetAttributes = {
+					5D69032E1C7C92F900F1D8CB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8BHYF6HD3S;
+					};
+					5D6903471C7C92F900F1D8CB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8BHYF6HD3S;
+						TestTargetID = 5D69032E1C7C92F900F1D8CB;
+					};
+					5D6903521C7C92F900F1D8CB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8BHYF6HD3S;
+						TestTargetID = 5D69032E1C7C92F900F1D8CB;
+					};
+				};
+			};
+			buildConfigurationList = 5D69032A1C7C92F900F1D8CB /* Build configuration list for PBXProject "DavidBowieApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D6903261C7C92F900F1D8CB;
+			productRefGroup = 5D6903301C7C92F900F1D8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D69032E1C7C92F900F1D8CB /* DavidBowieApp */,
+				5D6903471C7C92F900F1D8CB /* DavidBowieAppTests */,
+				5D6903521C7C92F900F1D8CB /* DavidBowieAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D69032D1C7C92F900F1D8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D69038A1C81C52000F1D8CB /* Diamond_dogs.jpg in Resources */,
+				5D6903661C7C93BC00F1D8CB /* Bowie-davidbowie.jpg in Resources */,
+				5D6903421C7C92F900F1D8CB /* LaunchScreen.storyboard in Resources */,
+				5D6903881C81C50C00F1D8CB /* AladdinSane.jpg in Resources */,
+				5D69036C1C7CF78700F1D8CB /* spaceOddity.jpg in Resources */,
+				5D69033F1C7C92F900F1D8CB /* Assets.xcassets in Resources */,
+				5D69036E1C7CFC3600F1D8CB /* soldtheworld.png in Resources */,
+				5D69033D1C7C92F900F1D8CB /* Main.storyboard in Resources */,
+				5D69038C1C81C52A00F1D8CB /* PinUps.jpg in Resources */,
+				5D6903701C7CFE7E00F1D8CB /* Hunky_Dory.jpg in Resources */,
+				5D69038E1C81C53400F1D8CB /* ZiggyStardust.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6903461C7C92F900F1D8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6903511C7C92F900F1D8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D69032B1C7C92F900F1D8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D69033A1C7C92F900F1D8CB /* ViewController.m in Sources */,
+				5D6903371C7C92F900F1D8CB /* AppDelegate.m in Sources */,
+				5D6903341C7C92F900F1D8CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6903441C7C92F900F1D8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D69034D1C7C92F900F1D8CB /* DavidBowieAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D69034F1C7C92F900F1D8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6903581C7C92F900F1D8CB /* DavidBowieAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D69034A1C7C92F900F1D8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D69032E1C7C92F900F1D8CB /* DavidBowieApp */;
+			targetProxy = 5D6903491C7C92F900F1D8CB /* PBXContainerItemProxy */;
+		};
+		5D6903551C7C92F900F1D8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D69032E1C7C92F900F1D8CB /* DavidBowieApp */;
+			targetProxy = 5D6903541C7C92F900F1D8CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D69033B1C7C92F900F1D8CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D69033C1C7C92F900F1D8CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D6903401C7C92F900F1D8CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D6903411C7C92F900F1D8CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D69035A1C7C92F900F1D8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D69035B1C7C92F900F1D8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D69035D1C7C92F900F1D8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DavidBowieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atomic8899.DavidBowieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D69035E1C7C92F900F1D8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DavidBowieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atomic8899.DavidBowieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D6903601C7C92F900F1D8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DavidBowieAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atomic8899.DavidBowieAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DavidBowieApp.app/DavidBowieApp";
+			};
+			name = Debug;
+		};
+		5D6903611C7C92F900F1D8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DavidBowieAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atomic8899.DavidBowieAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DavidBowieApp.app/DavidBowieApp";
+			};
+			name = Release;
+		};
+		5D6903631C7C92F900F1D8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DavidBowieAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atomic8899.DavidBowieAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DavidBowieApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5D6903641C7C92F900F1D8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DavidBowieAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Atomic8899.DavidBowieAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DavidBowieApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D69032A1C7C92F900F1D8CB /* Build configuration list for PBXProject "DavidBowieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D69035A1C7C92F900F1D8CB /* Debug */,
+				5D69035B1C7C92F900F1D8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D69035C1C7C92F900F1D8CB /* Build configuration list for PBXNativeTarget "DavidBowieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D69035D1C7C92F900F1D8CB /* Debug */,
+				5D69035E1C7C92F900F1D8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D69035F1C7C92F900F1D8CB /* Build configuration list for PBXNativeTarget "DavidBowieAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6903601C7C92F900F1D8CB /* Debug */,
+				5D6903611C7C92F900F1D8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D6903621C7C92F900F1D8CB /* Build configuration list for PBXNativeTarget "DavidBowieAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6903631C7C92F900F1D8CB /* Debug */,
+				5D6903641C7C92F900F1D8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D6903271C7C92F900F1D8CB /* Project object */;
+}
