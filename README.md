@@ -25,5 +25,5 @@ Created a gist file for Simplon.
 Je ne peux pas télécharger le Certificats OCR (.zip) sur Simplon? Ils sont tous sur Github. https://github.com/leunablue/simplon/tree/master/OCR%20Certificates 
 
 
-Important! - Updated iOS David Bowie app. Added old version to .gitignore file. Please try this one:  https://github.com/leunablue/Simplon/tree/master/New%20David%20Bowie%20iOS%20App
+Important! - Projet de fin de parcours.  Updated iOS David Bowie app. Added old version to .gitignore file. Please try this one:  https://github.com/leunablue/Simplon/tree/master/New%20David%20Bowie%20iOS%20App
 (Test on Xcode Simulator iPhone 6 Plus only). 
