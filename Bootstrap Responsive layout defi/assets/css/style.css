@@ -1,0 +1,91 @@
+     body {
+
+        font-family: 'Bitter', serif;
+        background-color: #fff !important;
+        color: #259;
+        padding: 0px;
+
+      
+        
+      }
+
+
+
+      nav img {
+        
+        width: 100%;
+
+        
+      }
+
+
+      
+      @media (min-width: 768px) {
+
+        .container-fluid {
+    
+       
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 0%; 
+
+}
+
+      }
+ 
+
+      @media (min-width: 992px) {
+        
+       .container-fluid {
+        
+       
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 0%; 
+
+}
+
+      }
+
+
+      @media (min-width: 320px) {
+
+
+        .text-center {
+            
+            font-size: 16px;
+
+        }
+
+
+
+}
+
+
+.jumbotron
+
+    {
+     
+
+    background-color: #eef;
+    
+    padding: 0px;
+    
+   
+}
+
+
+
+.links {
+
+    
+    text-align: center;
+    padding: 10px;
+
+}
+
+.round {
+  border-radius: 30px;
+}
+
+
