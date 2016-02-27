@@ -6,7 +6,7 @@ This is a test project only.
 
 
 
-Added VIP Blog "Vegetarian in Paris". :-)
+Added VIP Blog "Vegetarian in Paris". 
 
 
 Added pdf for Simplon! Please read! :-) 
