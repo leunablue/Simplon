@@ -10,3 +10,6 @@ Added VIP Blog "Vegetarian in Paris". https://vegetarianinparisblog.wordpress.co
 
 
 Added pdf for Simplon! Please read! :-) 
+
+
+Bootstrap CV defi files and Bootstrap responsive layout design defi added. 
