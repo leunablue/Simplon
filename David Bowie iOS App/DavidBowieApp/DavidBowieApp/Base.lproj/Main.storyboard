@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--La discographie 1967 / 1970-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="La discographie 1967 / 1970" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" semanticContentAttribute="spatial" preservesSuperviewLayoutMargins="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hunky_Dory.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JSu-J4-P09">
+                                <rect key="frame" x="-24" y="51" width="136" height="205"/>
+                                <color key="tintColor" red="0.57490924870000004" green="0.037648254559999997" blue="0.30448992089999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spaceOddity.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DrA-0n-VPA">
+                                <rect key="frame" x="-24" y="51" width="136" height="205"/>
+                                <color key="tintColor" red="0.57490924870000004" green="0.037648254559999997" blue="0.30448992089999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soldtheworld.png" translatesAutoresizingMaskIntoConstraints="NO" id="OFk-AB-pjy">
+                                <rect key="frame" x="-24" y="51" width="136" height="205"/>
+                                <color key="tintColor" red="0.57490924870000004" green="0.037648254559999997" blue="0.30448992089999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Bowie-davidbowie.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dd2-8I-by1">
+                                <rect key="frame" x="-24" y="51" width="136" height="205"/>
+                                <color key="tintColor" red="0.57490924870000004" green="0.037648254559999997" blue="0.30448992089999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="Nai-f5-8Gt"/>
+                                    <constraint firstAttribute="width" secondItem="dd2-8I-by1" secondAttribute="height" multiplier="137:203" id="QPZ-u1-xhH"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Nai-f5-8Gt"/>
+                                        <exclude reference="QPZ-u1-xhH"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="1" y="51" width="137" height="203"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Nai-f5-8Gt"/>
+                                        <include reference="QPZ-u1-xhH"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="David Bowie Albums" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kng-jx-Jk0">
+                                <rect key="frame" x="83" y="28" width="153" height="30"/>
+                                <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kng-jx-Jk0" secondAttribute="height" multiplier="51:10" id="36e-3R-S1Z"/>
+                                    <constraint firstAttribute="width" constant="153" id="Id9-lD-Rc8"/>
+                                    <constraint firstAttribute="height" constant="30" id="YbQ-vW-2jM"/>
+                                    <constraint firstAttribute="width" constant="153" id="b4x-Zy-FVh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="153" id="bsM-T3-QA7"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="36e-3R-S1Z"/>
+                                        <exclude reference="Id9-lD-Rc8"/>
+                                        <exclude reference="YbQ-vW-2jM"/>
+                                        <exclude reference="bsM-T3-QA7"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="110" y="28" width="153" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="YbQ-vW-2jM"/>
+                                        <exclude reference="b4x-Zy-FVh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="36e-3R-S1Z"/>
+                                        <include reference="Id9-lD-Rc8"/>
+                                        <exclude reference="YbQ-vW-2jM"/>
+                                        <include reference="bsM-T3-QA7"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2p1-8S-Voy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2p1-8S-Voy" secondAttribute="height" multiplier="399:136" id="FAr-ZA-kuG"/>
+                                    <constraint firstAttribute="width" constant="399" id="Icq-Uo-KmU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="399" id="jmY-cQ-WV6"/>
+                                </constraints>
+                                <state key="normal" title="1970"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FAr-ZA-kuG"/>
+                                        <exclude reference="Icq-Uo-KmU"/>
+                                        <exclude reference="jmY-cQ-WV6"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FAr-ZA-kuG"/>
+                                        <include reference="Icq-Uo-KmU"/>
+                                        <include reference="jmY-cQ-WV6"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="baE-yJ-Ejz" kind="modal" id="aSy-y9-My5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKX-27-VBe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="399" id="bit-1A-en4"/>
+                                </constraints>
+                                <state key="normal" title="1969"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bit-1A-en4"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="bit-1A-en4"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="Gpr-J5-Oox" kind="modal" id="Hau-c3-Thi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMn-u1-E9R">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="399" id="LBN-HA-AHU"/>
+                                    <constraint firstAttribute="height" constant="136" id="tIM-AI-OAV"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="399" id="vq7-tg-E7u"/>
+                                </constraints>
+                                <state key="normal" title="1967"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LBN-HA-AHU"/>
+                                        <exclude reference="tIM-AI-OAV"/>
+                                        <exclude reference="vq7-tg-E7u"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="LBN-HA-AHU"/>
+                                        <include reference="tIM-AI-OAV"/>
+                                        <include reference="vq7-tg-E7u"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="zIb-9l-Gli" kind="modal" id="hOD-wS-GZ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLP-Hu-q1Y">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="399" id="jpO-xv-Eqf"/>
+                                </constraints>
+                                <state key="normal" title="1971"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="jpO-xv-Eqf"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="jpO-xv-Eqf"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="ucN-oi-hsA" kind="modal" id="3eh-ql-tim"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="width" secondItem="OFk-AB-pjy" secondAttribute="width" id="0yS-jB-flX"/>
+                            <constraint firstItem="JSu-J4-P09" firstAttribute="top" secondItem="dd2-8I-by1" secondAttribute="bottom" constant="253" id="733-e5-q0U"/>
+                            <constraint firstItem="OFk-AB-pjy" firstAttribute="top" secondItem="dd2-8I-by1" secondAttribute="bottom" constant="100" id="8yR-sE-U7R"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="centerX" secondItem="JSu-J4-P09" secondAttribute="centerX" id="9gZ-n5-wLh"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="height" secondItem="JSu-J4-P09" secondAttribute="height" id="HLh-gi-qeA"/>
+                            <constraint firstItem="2p1-8S-Voy" firstAttribute="top" secondItem="JKX-27-VBe" secondAttribute="bottom" constant="16" id="HOe-Ku-WxZ"/>
+                            <constraint firstItem="hMn-u1-E9R" firstAttribute="centerX" secondItem="xLP-Hu-q1Y" secondAttribute="centerX" id="HuC-85-8r4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JSu-J4-P09" secondAttribute="bottom" constant="26" id="Ipa-Yl-Lp8"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="centerX" secondItem="OFk-AB-pjy" secondAttribute="centerX" id="JW7-T1-Fik"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="height" secondItem="OFk-AB-pjy" secondAttribute="height" id="L2x-ck-6PF"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="centerX" secondItem="DrA-0n-VPA" secondAttribute="centerX" id="MoI-0L-JKu"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="width" secondItem="DrA-0n-VPA" secondAttribute="height" multiplier="137:203" id="QH4-sA-4x6"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-19" id="RBZ-yw-AsV"/>
+                            <constraint firstItem="JKX-27-VBe" firstAttribute="top" secondItem="hMn-u1-E9R" secondAttribute="bottom" constant="15" id="UvP-bY-isI"/>
+                            <constraint firstAttribute="trailing" secondItem="xLP-Hu-q1Y" secondAttribute="trailing" id="VGU-UG-q53"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="width" secondItem="JSu-J4-P09" secondAttribute="height" multiplier="137:203" id="VHb-Gt-vNQ"/>
+                            <constraint firstItem="kng-jx-Jk0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="132" id="Ygj-L4-ARt"/>
+                            <constraint firstItem="hMn-u1-E9R" firstAttribute="centerX" secondItem="JKX-27-VBe" secondAttribute="centerX" id="ZcI-J4-2pe"/>
+                            <constraint firstItem="xLP-Hu-q1Y" firstAttribute="top" secondItem="hMn-u1-E9R" secondAttribute="bottom" constant="320" id="aRg-ut-S4T"/>
+                            <constraint firstItem="hMn-u1-E9R" firstAttribute="height" secondItem="xLP-Hu-q1Y" secondAttribute="height" id="c25-a2-I5z"/>
+                            <constraint firstItem="kng-jx-Jk0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="cXZ-cd-r45"/>
+                            <constraint firstItem="hMn-u1-E9R" firstAttribute="centerX" secondItem="2p1-8S-Voy" secondAttribute="centerX" id="eRv-VJ-spq"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="width" secondItem="JSu-J4-P09" secondAttribute="width" id="id2-BW-CKM"/>
+                            <constraint firstItem="DrA-0n-VPA" firstAttribute="top" secondItem="dd2-8I-by1" secondAttribute="bottom" constant="-52" id="jKv-jD-MLI"/>
+                            <constraint firstItem="hMn-u1-E9R" firstAttribute="top" secondItem="kng-jx-Jk0" secondAttribute="bottom" constant="27" id="jTb-nY-GcS"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="width" secondItem="OFk-AB-pjy" secondAttribute="height" multiplier="137:203" id="kBD-ER-pbE"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="width" secondItem="DrA-0n-VPA" secondAttribute="width" id="mAJ-be-n2v"/>
+                            <constraint firstItem="dd2-8I-by1" firstAttribute="height" secondItem="DrA-0n-VPA" secondAttribute="height" id="q6h-xE-pco"/>
+                            <constraint firstItem="JKX-27-VBe" firstAttribute="top" secondItem="hMn-u1-E9R" secondAttribute="bottom" constant="15" id="uWT-7H-cif"/>
+                            <constraint firstItem="2p1-8S-Voy" firstAttribute="top" secondItem="hMn-u1-E9R" secondAttribute="bottom" constant="167" id="v41-Qe-6xn"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JSu-J4-P09"/>
+                                <exclude reference="DrA-0n-VPA"/>
+                                <exclude reference="OFk-AB-pjy"/>
+                                <exclude reference="2p1-8S-Voy"/>
+                                <exclude reference="JKX-27-VBe"/>
+                                <exclude reference="hMn-u1-E9R"/>
+                                <exclude reference="xLP-Hu-q1Y"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="HOe-Ku-WxZ"/>
+                                <exclude reference="v41-Qe-6xn"/>
+                                <exclude reference="UvP-bY-isI"/>
+                                <exclude reference="uWT-7H-cif"/>
+                                <exclude reference="HuC-85-8r4"/>
+                                <exclude reference="ZcI-J4-2pe"/>
+                                <exclude reference="c25-a2-I5z"/>
+                                <exclude reference="eRv-VJ-spq"/>
+                                <exclude reference="jTb-nY-GcS"/>
+                                <exclude reference="VGU-UG-q53"/>
+                                <exclude reference="aRg-ut-S4T"/>
+                                <exclude reference="jKv-jD-MLI"/>
+                                <exclude reference="733-e5-q0U"/>
+                                <exclude reference="8yR-sE-U7R"/>
+                                <exclude reference="0yS-jB-flX"/>
+                                <exclude reference="9gZ-n5-wLh"/>
+                                <exclude reference="HLh-gi-qeA"/>
+                                <exclude reference="JW7-T1-Fik"/>
+                                <exclude reference="L2x-ck-6PF"/>
+                                <exclude reference="MoI-0L-JKu"/>
+                                <exclude reference="QH4-sA-4x6"/>
+                                <exclude reference="RBZ-yw-AsV"/>
+                                <exclude reference="VHb-Gt-vNQ"/>
+                                <exclude reference="id2-BW-CKM"/>
+                                <exclude reference="kBD-ER-pbE"/>
+                                <exclude reference="mAJ-be-n2v"/>
+                                <exclude reference="q6h-xE-pco"/>
+                                <exclude reference="Ygj-L4-ARt"/>
+                                <exclude reference="cXZ-cd-r45"/>
+                                <exclude reference="Ipa-Yl-Lp8"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="JSu-J4-P09"/>
+                                <include reference="DrA-0n-VPA"/>
+                                <include reference="OFk-AB-pjy"/>
+                                <include reference="2p1-8S-Voy"/>
+                                <include reference="JKX-27-VBe"/>
+                                <include reference="hMn-u1-E9R"/>
+                                <include reference="xLP-Hu-q1Y"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="HOe-Ku-WxZ"/>
+                                <include reference="v41-Qe-6xn"/>
+                                <include reference="UvP-bY-isI"/>
+                                <include reference="uWT-7H-cif"/>
+                                <include reference="HuC-85-8r4"/>
+                                <include reference="ZcI-J4-2pe"/>
+                                <include reference="c25-a2-I5z"/>
+                                <include reference="eRv-VJ-spq"/>
+                                <include reference="jTb-nY-GcS"/>
+                                <include reference="VGU-UG-q53"/>
+                                <include reference="aRg-ut-S4T"/>
+                                <include reference="jKv-jD-MLI"/>
+                                <include reference="733-e5-q0U"/>
+                                <include reference="8yR-sE-U7R"/>
+                                <include reference="0yS-jB-flX"/>
+                                <include reference="9gZ-n5-wLh"/>
+                                <include reference="HLh-gi-qeA"/>
+                                <include reference="JW7-T1-Fik"/>
+                                <include reference="L2x-ck-6PF"/>
+                                <include reference="MoI-0L-JKu"/>
+                                <include reference="QH4-sA-4x6"/>
+                                <include reference="RBZ-yw-AsV"/>
+                                <include reference="VHb-Gt-vNQ"/>
+                                <include reference="id2-BW-CKM"/>
+                                <include reference="kBD-ER-pbE"/>
+                                <include reference="mAJ-be-n2v"/>
+                                <include reference="q6h-xE-pco"/>
+                                <include reference="Ygj-L4-ARt"/>
+                                <include reference="cXZ-cd-r45"/>
+                                <include reference="Ipa-Yl-Lp8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="4ka-SB-Hkp"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-976.5" y="-767.25"/>
+        </scene>
+        <!--David Bowie 1967-->
+        <scene sceneID="G44-Ed-0BB">
+            <objects>
+                <viewController title="David Bowie 1967" id="zIb-9l-Gli" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wtj-O3-2dG"/>
+                        <viewControllerLayoutGuide type="bottom" id="L6N-5u-2ou"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SFk-SI-HAS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bowie-davidbowie.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pbe-ym-5os">
+                                <rect key="frame" x="-10" y="-13" width="424" height="832"/>
+                                <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6q9-uD-xbU">
+                                <rect key="frame" x="12" y="271" width="391" height="283"/>
+                                <string key="text">David Bowie is the debut studio album by English musician David Bowie, released on 1 June 1967, on Deram Records.
+
+Its content bears little overt resemblance to the type of music that later made him famous, such as the folk rock of "Space Oddity" or the glam rock of The Rise and Fall of Ziggy Stardust and the Spiders from Mars. NME critics Roy Carr and Charles Shaar Murray have said, "a listener strictly accustomed to David Bowie in his assorted '70s guises would probably find this debut album either shocking or else simply quaint",[2] while biographer David Buckley describes its status in the Bowie discography as "the vinyl equivalent of the madwoman in the attic".[3] The Village Voice critic Robert Christgau considered this debut and its followup to be "overwrought excursions".</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bowie-davidbowie.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VTK-74-1SC">
+                                <rect key="frame" x="87" y="47" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaF-Tf-4fV">
+                                <rect key="frame" x="160" y="643" width="95" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="mOd-qe-soD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qs0-Qy-RuN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-217" y="-1272"/>
+        </scene>
+        <!--David Bowie 1969-->
+        <scene sceneID="oal-AU-5Z3">
+            <objects>
+                <viewController title="David Bowie 1969" id="Gpr-J5-Oox" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lUe-Ir-tb2"/>
+                        <viewControllerLayoutGuide type="bottom" id="hDz-YW-fBX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dzO-s2-kK2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spaceOddity.jpg" highlightedImage="spaceOddity.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sab-yi-guQ">
+                                <rect key="frame" x="-176" y="-223" width="777" height="1223"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k02-e5-W02">
+                                <rect key="frame" x="10" y="189" width="395" height="489"/>
+                                <string key="text">David Bowie is the second studio album by English musician David Bowie, released under that title by Philips in the UK, and as Man of Words/Man of Music by Mercury in the US, in November 1969. It was rereleased in 1972 by RCA as Space Oddity (the title of the opening track, which had reached No. 5 in the UK Singles Chart). Space Oddity was the name used for CD releases of the album in 1984, 1990 and 1999, but it reverted to the original, eponymous title for 2009 and 2015 reissues.
+
+Regarding its mix of folk, balladry and prog rock, NME editors Roy Carr and Charles Shaar Murray have said, "Some of it belonged in '67 and some of it in '72, but in 1969 it all seemed vastly incongruous. Basically, David Bowie can be viewed in retrospect as all that Bowie had been and a little of what he would become, all jumbled up and fighting for control..."[4]
+
+The album came about after Bowie had made the transition from a cabaret/avant-garde-inspired musician to a hippie/folk-based sound and as such the album is a major turning point from his 1967 debut.
+
+"Don't Sit Down", an unlisted 40-second jam heard after the album's second song, was listed as an independent track on CD releases of the album in the 1990s, but the 2009 and 2015 reissues returned the song to its original status as a hidden piece.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="1969 Philips LP (UK)" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="c0L-Ia-ake">
+                                <rect key="frame" x="92" y="152" width="240" height="29"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spaceOddity.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d2P-q8-OFw">
+                                <rect key="frame" x="87" y="28" width="240" height="128"/>
+                                <color key="tintColor" red="0.57490924870000004" green="0.037648254559999997" blue="0.30448992089999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9y-VD-wNG">
+                                <rect key="frame" x="143" y="674" width="129" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="2ud-Q4-CyX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uj4-I9-v0X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-217" y="-436"/>
+        </scene>
+        <!--The man who sold the world - 1970-->
+        <scene sceneID="6EL-b0-laM">
+            <objects>
+                <viewController title="The man who sold the world - 1970" id="baE-yJ-Ejz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xjh-cO-KQX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Iwa-lt-MVg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wn3-Ub-HWv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uke-BX-HU9">
+                                <rect key="frame" x="9" y="223" width="397" height="289"/>
+                                <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">The Man Who Sold the World is the third studio album by English rock artist David Bowie. It was originally released in the United States by Mercury Records in November 1970, and in April 1971 in the United Kingdom. The album was Bowie's first with the nucleus of what would become the "Spiders from Mars", the backing band made famous by The Rise and Fall of Ziggy Stardust and the Spiders from Mars in 1972. Though author David Buckley has described Bowie's previous record David Bowie (Space Oddity) as "the first Bowie album proper",[1]
+
+NME critics Roy Carr and Charles Shaar Murray have said of The Man Who Sold the World, "this is where the story really starts".[2] Departing from the largely acoustic music of Bowie's second album,[3] The Man Who Sold the World is generally considered a hard rock and heavy metal album.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soldtheworld.png" translatesAutoresizingMaskIntoConstraints="NO" id="vPT-Mt-clY">
+                                <rect key="frame" x="-66" y="-11" width="563" height="758"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soldtheworld.png" translatesAutoresizingMaskIntoConstraints="NO" id="thZ-2J-dJu">
+                                <rect key="frame" x="131" y="28" width="152" height="172"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaZ-jN-RH2">
+                                <rect key="frame" x="162" y="605" width="90" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Return"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="21q-Ez-Jxo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzn-m3-RWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-209" y="369"/>
+        </scene>
+        <!--Hunky Dory - 1971-->
+        <scene sceneID="lk3-4n-ou7">
+            <objects>
+                <viewController title="Hunky Dory - 1971" id="ucN-oi-hsA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4KJ-Fl-Ijc"/>
+                        <viewControllerLayoutGuide type="bottom" id="nL1-bs-zGZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GZG-ca-AEr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNZ-Az-V4q">
+                                <rect key="frame" x="5" y="192" width="404" height="377"/>
+                                <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Hunky Dory is the fourth album by English singer-songwriter David Bowie, recorded in mid-1971 and released by RCA Records that December.[1] It was his first release through RCA, which would be his label for the next decade. Hunky Dory has been described by AllMusic's Stephen Thomas Erlewine as having "a kaleidoscopic array of pop styles, tied together only by Bowie's sense of vision: a sweeping, cinematic mélange of high and low art, ambiguous sexuality, kitsch, and class".[2]
+
+The album has received critical acclaim since its release, and is regarded as one of Bowie's best works. Time chose it as part of their "100 best albums of all time" list in January 2010, with journalist Josh Tyrangiel praising Bowie's "earthbound ambition to be a boho poet with prodigal style".[3] The style of the album cover, designed by George Underwood, was influenced by a Marlene Dietrich photo book that Bowie took with him to the photo shoot.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hunky_Dory.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rFs-8J-UtK">
+                                <rect key="frame" x="87" y="28" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5w-xn-1He">
+                                <rect key="frame" x="167" y="559" width="81" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="vBP-3L-yS2"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hunky_Dory.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K9A-54-acL">
+                                <rect key="frame" x="-80" y="-76" width="503" height="998"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4941176471" green="0.0" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Dx-np-a3Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-209" y="1183"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bowie-davidbowie.jpg" width="290" height="300"/>
+        <image name="Hunky_Dory.jpg" width="300" height="300"/>
+        <image name="soldtheworld.png" width="300" height="300"/>
+        <image name="spaceOddity.jpg" width="299" height="300"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vBP-3L-yS2"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.49411764705882355" green="0.0" blue="0.23921568627450981" alpha="1" colorSpace="calibratedRGB"/>
+</document>
