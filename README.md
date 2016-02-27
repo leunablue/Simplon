@@ -10,7 +10,7 @@ Projet de fin de parcours.
  VIP Blog "Vegetarian in Paris". https://vegetarianinparisblog.wordpress.com/ 
 
 
-Added pdf for Simplon! Please read! :-) 
+Added pdf for Simplon! Please read! :-) https://github.com/leunablue/simplon/blob/master/Simplonline.Formation.FOAD.Avril.2015._.2016.pdf
 
 
 Bootstrap CV defi files and Bootstrap responsive layout design defi added. 
