@@ -1,4 +1,4 @@
-# simplon
+# Simplon
 
 Added a branch. (iOS Music app. Davis Bowie / Xcode project).
 Importants - This app is optimized for iphone 6 Plus (only).
