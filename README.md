@@ -1,13 +1,13 @@
 # Simplon
 
-Projet de fin de parcours
-Added a branch. (iOS Music app. Davis Bowie / Xcode project).
-Importants - This app is optimized for iphone 6 Plus (only).
+Projet de fin de parcours.
+  (iOS Music app. Davis Bowie / Xcode project).
+Importants - This app is optimized for iPhone 6 Plus (only).
 This is a test project only.
 
 
-Projet de fin de parcours
-Added VIP Blog "Vegetarian in Paris". https://vegetarianinparisblog.wordpress.com/ 
+Projet de fin de parcours.
+ VIP Blog "Vegetarian in Paris". https://vegetarianinparisblog.wordpress.com/ 
 
 
 Added pdf for Simplon! Please read! :-) 
